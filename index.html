@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TODO APP</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> `
+    <style>
+        body {
+            background: url("image3.jpg");
+        }
+    </style>
     <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
     <script>
         // Initialize Firebase
@@ -22,15 +25,14 @@
         };
         firebase.initializeApp(config);
     </script>
-    </script>
 </head>
 
 <body>
     <div class="container jumbotron">
         <!--Name:
     <input type="text" name="name" id="demo">-->
-        <h1 style="text-align: center">Tell us what you do Today.?</h1>
-        <p title="Work to do Today" style="text-align: center"> Today's Plan</p>
+        <h1 style="text-align: center">Today Plans..</h1>
+        <p title="Work to do Today" style="text-align: center"> Thing you wanna do today...</p>
         <div class="input-group">
             <!--<label for="demo">Name:</label>-->
             <span class="input-group-addon" id="basic-addon1">Todo</span>
